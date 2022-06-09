@@ -4,7 +4,6 @@
 #' @param x number to be cubed.
 #' @keywords noreferences; 
 #' 
-#' @examples
 #' @export
 FunzioneaCaso <- function(x){return(x^3)}
 
