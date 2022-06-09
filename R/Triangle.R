@@ -1,6 +1,3 @@
-pkg.env <- new.env()
-pkg.env$double.h <- function(h){return(2*h)}
-
 #' A basic triangle
 #'
 #' This function allows you to express your love of cats.
