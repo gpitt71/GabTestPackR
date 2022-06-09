@@ -1,6 +1,6 @@
 Package: GabTestPackR
 Type: Package
-Title: Package that Gab is using to test his stuff.
+Title: Gabriele R Test Package
 Version: 0.1.0
 Author: Gabriele Pittarello
 Maintainer: <gabriele.pittarello@uniroma1.it>

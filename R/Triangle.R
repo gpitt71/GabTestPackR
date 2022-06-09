@@ -8,8 +8,6 @@ pkg.env$double.h <- function(h){return(2*h)}
 #' @param altezza Triangle height Default set to NULL
 #' @keywords triangle; geometry; 
 #' 
-
-
 #' @examples
 #' piastrella<-Triangle(base=2,altezza = 5)
 #' print(piastrella)

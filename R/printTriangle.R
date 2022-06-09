@@ -2,7 +2,7 @@
 #'
 #' This function allows you to print the triangle area.
 #' @param obj object we take stuff from.
-#' 
+#' @keywords triangle; geometry; 
 #' @export
 print.Triangle <- function(obj){
   
