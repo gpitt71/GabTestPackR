@@ -2,7 +2,7 @@
 % Please edit documentation in R/funzioneaCaso.R
 \name{FunzioneaCaso}
 \alias{FunzioneaCaso}
-\title{Basic print function}
+\title{funzione a caso}
 \usage{
 FunzioneaCaso(x)
 }
@@ -10,5 +10,6 @@ FunzioneaCaso(x)
 \item{x}{number to be cubed.}
 }
 \description{
-This function allows you to do something.
+This function is extremely useless.
 }
+\keyword{noreferences;}

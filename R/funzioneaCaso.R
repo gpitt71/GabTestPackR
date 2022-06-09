@@ -1,4 +1,4 @@
-#' A basic triangle
+#' funzione a caso
 #'
 #' This function is extremely useless.
 #' @param x number to be cubed.
