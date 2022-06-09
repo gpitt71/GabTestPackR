@@ -1,0 +1,22 @@
+---
+title: "Tutorial to compute the area of a triangle"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Tutorial to compute the area of a triangle}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(GabTestPackR)
+
+piastrellaDelBagno <- Triangle(base=5,altezza=2)
+print(piastrellaDelBagno)
+```
