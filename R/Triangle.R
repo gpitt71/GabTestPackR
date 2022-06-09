@@ -7,6 +7,21 @@ pkg.env$double.h <- function(h){return(2*h)}
 #' @param base Triangle base Default set to NULL
 #' @param altezza Triangle height Default set to NULL
 #' @keywords triangle; geometry; 
+#' 
+
+
+#' @examples
+#' piastrella<-Triangle(base=2,altezza = 5)
+#' print(piastrella)
+#' 
+#' @references 
+#' 
+#' Plat, R. (2009). On stochastic mortality modeling. Insurance: Mathematics 
+#'   and Economics, 45(3), 393-404. 
+#' 
+#' Hunt, A., & Blake, D. (2015). On the Structure and Classification of 
+#' Mortality Models Mortality Models. Pension Institute Working Paper.
+#' \url{http://www.pensions-institute.org/workingpapers/wp1506.pdf}.
 #' @export
 
 Triangle <- function(base=NULL,
@@ -27,29 +42,10 @@ Triangle <- function(base=NULL,
 }
 
 
-
-#' @examples
-#' piastrella<-Triangle(base=2,altezza = 5)
-#' print(piastrella)
-#' 
-
-#' @references 
-#' 
-#' Plat, R. (2009). On stochastic mortality modeling. Insurance: Mathematics 
-#'   and Economics, 45(3), 393-404. 
-#' 
-#' Hunt, A., & Blake, D. (2015). On the Structure and Classification of 
-#' Mortality Models Mortality Models. Pension Institute Working Paper.
-#' \url{http://www.pensions-institute.org/workingpapers/wp1506.pdf}.
-
-
 #' Basic print function
 #'
 #' This function allows you to print the triangle area.
-#' @param base Triangle base Default set to NULL
-#' @param altezza Triangle height Default set to NULL
-#' @keywords triangle; geometry; 
-#' @export
+#' @param obj object we take stuff from.
 print.Triangle <- function(obj){
   
   cat('Congrats! Triangle area is ', obj$base*obj$altezza)
