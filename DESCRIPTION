@@ -1,0 +1,14 @@
+Package: GabTestPackR
+Type: Package
+Title: Package that Gab is using to test his stuff.
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: gabriele.pittarello@uniroma1.it
+Description: Various tests are run here.
+License: BSD 3-Clause
+Imports:
+    StMoMo
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr, utils
+RoxygenNote: 7.2.0
